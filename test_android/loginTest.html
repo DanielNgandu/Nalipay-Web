@@ -1,0 +1,100 @@
+<html>
+<body>
+		<h2>Login</h2>
+	<form action="login.php" method="POST">
+	
+		phone_number<input type="text" name="phone">
+		password<input type="password" name="password">
+		
+		<input type="submit" name="submit">
+		 
+	</form>
+	<br><br><br><br>
+	<h2>Register</h2>
+	
+	<form action="regnew.php" method="POST">
+		
+		first_name<input type="text" name="first_name" value="john"><br>
+		last_name<input type="text" name="last_name" value="joe"><br>
+		nrc<input type="text" name="nrc"><br>
+		DOB<input type="date" name="DOB" value="12/12/1972"><br>
+		password<input type="password" name="password"><br>
+		acc_number<input type="text" name="acc_number"><br>
+		phone_number<input type="text" name="phone_number"><br>
+		city<input type="text" name="city" value="kitwe"><br>
+		email<input type="email" name="email"><br>
+		
+		<input type="submit" name="submit">
+		 
+	</form>
+	
+	
+	<br><br><br><br>
+	<h2>NEW GROUP</h2>
+	
+	<form action="creGroup.php" method="POST">
+		admin_id<input type="number" name="admin_id" ><br>
+		group_name<input type="text" name="group_name" ><br>
+		number_of_people<input type="number" name="number_of_people"><br>
+		amount<input type="number" name="amount"><br>
+		number_of_days<input type="number" name="number_of_days"><br>
+		
+		
+		<input type="submit" name="submit">
+		 
+	</form>
+	<br><br><br><br>
+	<h2>GET NUMBER</h2>
+	
+	<form action="getdata.php" method="POST">
+		member_id<input type="number" name="member_id" ><br>
+		
+		
+		<input type="submit" name="submit">
+		 
+	</form>
+	<br><br><br><br>
+	<h2>addcontacts</h2>
+	
+	<form action="addcont.php" method="POST">
+		
+		phone_number<input type="text" name="phone_number"><br>
+		admin_id<input type="number" name="admin_id"><br>
+		group_id<input type="number" name="group_id"><br>
+		group_name<input type="text" name="group_name"><br>
+		
+		
+		
+		<input type="submit" name="submit">
+		 
+	</form
+	<br><br><br><br>
+	<h2>PAY</h2>
+	
+	<form action="pay.php" method="POST">
+		admin_id<input type="number" name="admin_id"><br>
+		amount<input type="number" name="amount"><br>
+		groupid<input type="number" name="groupid"><br>
+		
+		
+		
+		<input type="submit" name="submit">
+		 
+	</form
+	
+	<br><br><br><br>
+	<h2> Logs</h2>
+	
+	<form action="sched.php" method="POST">
+		
+		
+		group_id<input type="number" name="group_id"><br>
+		
+		
+		
+		<input type="submit" name="submit">
+		 
+	</form>
+	
+</body>
+</html>
